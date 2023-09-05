@@ -27,7 +27,7 @@ WHERE discontinued = 1;
 -- 3). Product ID and Name of Discontinued Products
 -- ------------------------------------------------------------------
 
-SELECT id as 'Product ID' , product_name as 'Product Name' 
+SELECT id as 'Product ID' , product_name as 'Name' 
 FROM products 
 WHERE discontinued = 0;
 
